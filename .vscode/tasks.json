@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "type": "cmake",
+            "label": "CMake: clean rebuild",
+            "command": "cleanRebuild",
+            "targets": [
+                "[N/A - Select Kit]"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "CMake template clean rebuild task"
+        }
+    ]
+}
